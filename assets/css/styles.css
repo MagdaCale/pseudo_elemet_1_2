@@ -1,0 +1,43 @@
+h3::first-letter {
+    font-size: 3em;
+    color: #00796b;
+}
+h3:hover:first-letter { 
+    color: #4FC3F7;
+}
+ul li:first-child::first-letter {
+    color: #4FC3F7;
+    font-size: 2em;
+    text-decoration: overline;
+}
+ul li+li::first-letter {
+    color: #c51162;
+    font-size: 2em;
+}
+ul li:last-child::first-letter {
+    color: #64dd17;
+    text-decoration: line-through;
+}
+ul li:last-child {
+    text-decoration: line-through;
+}
+section p:first-of-type {
+    color: #37474f;
+    text-indent: 50px;
+}
+section p:first-child::first-line {
+    font-size: 1.3em;
+}
+section p+p::first-letter {
+    color: #D50000;
+    font-size: 1.5em;
+}
+section p+p::first-line {
+    color: green;
+}
+section p+p:hover::first-line {
+    color: #303F9F;
+}
+section>p:nth-child(even) {
+    font-weight: 600;
+}
