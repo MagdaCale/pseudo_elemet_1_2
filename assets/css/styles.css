@@ -10,6 +10,12 @@ ul li:first-child::first-letter {
     font-size: 2em;
     text-decoration: overline;
 }
+/*li:nth-child(2)::first-letter{
+    color: #C51162;
+    text-decoration: underline;
+    font-size: 2em;
+}*/
+
 ul li+li::first-letter {
     color: #c51162;
     font-size: 2em;
