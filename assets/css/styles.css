@@ -13,6 +13,7 @@ ul li:first-child::first-letter {
 ul li+li::first-letter {
     color: #c51162;
     font-size: 2em;
+    text-decoration: underline;
 }
 ul li:last-child::first-letter {
     color: #64dd17;
